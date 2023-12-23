@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="login_background">#22262C</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#6AFF00</color>
+    <color name="alphaSvg">#0DFFFFFF</color>
 </resources>

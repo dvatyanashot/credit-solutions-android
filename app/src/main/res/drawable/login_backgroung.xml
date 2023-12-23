@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+    <shape>
+        <solid android:color="@color/login_background">
+
+        </solid>
+    </shape>
+    </item>
+
+    <item>
+        <inset android:drawable="@drawable/mask_group_49501">
+        </inset>
+    </item>
+
+</layer-list>
+

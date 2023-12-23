@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.creditsolutions.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.creditsolutions.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_signUpCode"
+            app:destination="@id/signUpCode" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpCode"
+        android:name="com.example.creditsolutions.SignUpCode"
+        android:label="fragment_sign_up_code"
+        tools:layout="@layout/fragment_sign_up_code" >
+        <action
+            android:id="@+id/action_signUpCode_to_createPassword"
+            app:destination="@id/createPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPassword"
+        android:name="com.example.creditsolutions.CreatePassword"
+        android:label="fragment_create_password"
+        tools:layout="@layout/fragment_create_password" />
+    <fragment
+        android:id="@+id/passwordRecover"
+        android:name="com.example.creditsolutions.PasswordRecover"
+        android:label="fragment_password_recover"
+        tools:layout="@layout/fragment_password_recover" />
+    <fragment
+        android:id="@+id/passwordRecoverCode"
+        android:name="com.example.creditsolutions.PasswordRecoverCode"
+        android:label="fragment_password_recover_code"
+        tools:layout="@layout/fragment_password_recover_code" />
+    <fragment
+        android:id="@+id/newPasswordCreate"
+        android:name="com.example.creditsolutions.NewPasswordCreate"
+        android:label="fragment_new_password_create"
+        tools:layout="@layout/fragment_new_password_create" />
+</navigation>
