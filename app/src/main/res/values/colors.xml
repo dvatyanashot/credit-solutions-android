@@ -6,4 +6,8 @@
     <color name="red">#FF0000</color>
     <color name="green">#6AFF00</color>
     <color name="alphaSvg">#0DFFFFFF</color>
+    <color name="field_stroke_color">#DDDDDD</color>
+    <color name="inactive_text_color">#9E9E9E</color>
+    <color name="forgot_password_color">#598C2E</color>
+    <color name="button">#5A8C2E</color>
 </resources>

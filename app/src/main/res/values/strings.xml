@@ -2,4 +2,10 @@
     <string name="app_name">CreditSolutions</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Մուտք</string>
+    <string name="email">Էլ․ հասցե</string>
+    <string name="password">Գաղտնաբառ</string>
+    <string name="forgotPassword"><u>Մոռացե՞լ եք գաղտնաբառը</u></string>
+    <string name="ifHasNotAccount">Եթե դեռ չունեք հաշիվ, խնդրում ենք</string>
+    <string name="signUp"><u>Գրանցվել</u></string>
 </resources>
