@@ -7,5 +7,22 @@
     <string name="password">Գաղտնաբառ</string>
     <string name="forgotPassword"><u>Մոռացե՞լ եք գաղտնաբառը</u></string>
     <string name="ifHasNotAccount">Եթե դեռ չունեք հաշիվ, խնդրում ենք</string>
-    <string name="signUp"><u>Գրանցվել</u></string>
+    <string name="toSignUp"><u>Գրանցվել</u></string>
+    <string name="signUp">Գրանցում</string>
+    <string name="enterEmailForSignUp">Խնդրում ենք մուտքագրել ձեր աշխատանքային էլ․ հասցեն</string>
+    <string name="approve">Հաստատել</string>
+    <string name="ifHasAccount">Եթե դուք ունեք հաշիվ, խնդրում ենք</string>
+    <string name="toSignIn"><u>Մուտք գործել</u></string>
+    <string name="authCodeSent">Հաստատման կոդը ուղարկվել է նշած էլ. հասցենին</string>
+    <string name="authCode">Հաստատման կոդ</string>
+    <string name="newPassword">Նոր գաղտնաբառ</string>
+    <string name="approveNewPassword">Հաստատել նոր գաղտնաբառ</string>
+    <string name="passwordDescription">Գաղտնաբառը պետք է լինի լատինատառ և պարունակի առնվազն 8 նիշ, տառ, թիվ, սիմվոլ, փոքրատառ, մեծատառ</string>
+    <string name="save">Պահպանել</string>
+    <string name="createPassword">Գաղտնաբառի ստեղծում</string>
+    <string name="passwordRecover">Գաղտնաբառի վերականգնում</string>
+    <string name="enterEmailForPasswodRecover">Մուտքագրեք ձեր էլ. Հասցեն` գաղտնաբառը վերականգնելու համար։</string>
+    <string name="recoverPassword">Վերականգնել գաղտնաբառը</string>
+    <string name="emailSentTo">Մենք ուղարկել ենք հաստատման կոդը l***********e@gmail.com էլ. հասցեին</string>
+    <string name="resendCode"><u>Նորից ուղարկել կոդը</u></string>
 </resources>

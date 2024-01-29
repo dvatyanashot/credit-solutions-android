@@ -1,6 +1,9 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    kotlin("kapt")
+    id("com.google.dagger.hilt.android")
+
 }
 
 android {
@@ -52,6 +55,30 @@ dependencies {
 //    Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
+
+//    Hilt
+    implementation("com.google.dagger:hilt-android:2.50")
+    kapt("com.google.dagger:hilt-android-compiler:2.50")
+
+//    Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.google.code.gson:gson:2.10.1")
+
+//    Moshi
+    implementation ("com.squareup.retrofit2:converter-moshi:2.4.0")
+    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+
+//    OkHttp
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.12.0"))
+    implementation("com.squareup.okhttp3:okhttp")
+    implementation("com.squareup.okhttp3:logging-interceptor")
+
+//    Gson
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    implementation ("com.google.code.gson:gson:2.10.1")
+
+
 
 
     implementation("androidx.core:core-ktx:1.12.0")
